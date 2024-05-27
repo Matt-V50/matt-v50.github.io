@@ -24,9 +24,9 @@ author:
   avatar           : "profile_mine.png"
   name             : "Li Huibin (李慧斌)"
   pronouns         : "he/his"  
-  bio              : "I'm interested in 3D AIGC, seeking opportunities to pursue a Phd's degree starting from Winter and Fall 2025"
+  bio              : "I'm a graduate from University of Chinese Academic Sciences, interested in 3D AIGC, seeking opportunities to pursue a Phd's degree starting from Winter and Fall 2025"
   location         : "Toronto Canada"
-  employer         : "University of Chinese Academic of Sciences"
+  employer         : # "University of Chinese Academic of Sciences"
   uri              : # URL
   email            : "lihuibin.ucas@gmail.com" 
 
