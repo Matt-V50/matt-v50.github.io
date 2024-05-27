@@ -8,7 +8,6 @@ venue: 'CVPR'
 paperurl: 'http://favormylikes.github.io/files/2024_CVPR_SfmCAD_main.pdf'
 header:
   teaser: https://raw.githubusercontent.com/FavorMylikes/hackmd-note/img/img2024_CVPR_SfmCAD_main.jpg
-entries_layout: grid
 # citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---
 
