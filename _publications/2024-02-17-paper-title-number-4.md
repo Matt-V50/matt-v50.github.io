@@ -5,9 +5,11 @@ permalink: /publication/2024-02-17-sfm-cad
 excerpt: 'A new unsupervised neural network, SfmCAD, is introduced to reconstruct CAD models by learning sketch-based feature modeling operations'
 date: 2024-02-27
 venue: 'CVPR'
-paperurl: 'http://academicpages.github.io/files/2024_CVPR_SfmCAD_main.pdf'
+paperurl: 'http://favormylikes.github.io/files/2024_CVPR_SfmCAD_main.pdf'
 header:
   teaser: https://raw.githubusercontent.com/FavorMylikes/hackmd-note/img/img2024_CVPR_SfmCAD_main.jpg
+include:
+  type: grid
 # citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---
 
