@@ -12,8 +12,8 @@ redirect_from:
 Education
 ======
 <!-- * Ph.D in Version Control Theory, GitHub University, 20 (expected) -->
-* M.S. in Jekyll, University of Chinese Academic of Sciences, 2024
-* B.S. in Computer Science, Yancheng Institute of Technology, 2015
+* M.S. in Schoold of Artificial Intelligence, University of Chinese Academic of Sciences, 2024
+* B.S. in Schoold of Computer Science, Yancheng Institute of Technology, 2015
 
 Work experience
 ======
