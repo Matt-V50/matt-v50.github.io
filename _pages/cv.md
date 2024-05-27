@@ -16,7 +16,6 @@ Education
 * B.S. in Computer Science, Yancheng Institute of Technology, 2015
 
 Work experience
-
 ======
 
 * Nov,2023 - May,2024: AI Lab Intern at [Well-Link](https://www.wl-times.com/)
@@ -31,7 +30,6 @@ Work experience
   * Designed and implemented a cutting-edge anomaly detection algorithm that performs real-time monitoring and identification of anomalies in massive, high-dimensional datasets from diverse internet sources.
   
 Main Skills
-
 ======
 
 * Python
@@ -40,7 +38,6 @@ Main Skills
 * Java
 
 Publications
-
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
