@@ -14,4 +14,4 @@ I am very fortunate to be advised by [Prof. Jianwei Guo](https://jianweiguo.net/
 
 You can find my CV here: [Li Huibin’s Curriculum Vitae](../assets/cv/cv.pdf).
 
-I’m actively seeking opportunities to pursue a Phd’s degree starting from Winter and Fall 2025.
+<!-- I’m actively seeking opportunities to pursue a Phd’s degree starting from Winter and Fall 2025. -->
