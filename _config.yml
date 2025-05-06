@@ -22,10 +22,10 @@ repository               : "favormylikes/favormylikes.github.io"
 author:
   # Biographic information
   avatar           : "profile_mine.png"
-  name             : "Li Huibin (李慧斌)"
+  name             : "Li Huibin (李慧斌/Matt)"
   pronouns         : "he/his"  
-  bio              : "I'm a graduate from University of Chinese Academic Sciences, interested in 3D AIGC" #, seeking opportunities to pursue a Phd's degree starting from Winter and Fall 2025"
-  location         : "Toronto Canada"
+  bio              : "A first year graduate from University of Waterloo" #, seeking opportunities to pursue a Phd's degree starting from Winter and Fall 2025"
+  location         : "Waterloo, Ontario, Canada"
   employer         : # "University of Chinese Academic of Sciences"
   uri              : # URL
   email            : "lihuibin.ucas@gmail.com" 
