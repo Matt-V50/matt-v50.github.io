@@ -250,9 +250,11 @@ author_profile: true
     
     /* ========== Initialization ========== */
     
-    /* Initialize palettes on page load */
-    renderPalette(palette, 'fullPalette');
-    renderPalette(originalPalette, 'originalPalette');
+    /* Initialize palettes after DOM content is loaded */
+    document.addEventListener('DOMContentLoaded', function() {
+        renderPalette(palette, 'fullPalette');
+        renderPalette(originalPalette, 'originalPalette');
+    });
 </script>
 
 <!-- ============================================
