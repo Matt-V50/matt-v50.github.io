@@ -71,13 +71,12 @@
   display: none;
   position: absolute;
   top: 100%;
-  left: 0;
+  left: 1rem;
   background: white;
   border: 1px solid $border-color;
   list-style-type: none;
   padding: 0.5em 0;
   margin: 0;
-  margin-left: 1rem;
   min-width: 130px;
   z-index: 21;
   font-family: $sans-serif-narrow;
