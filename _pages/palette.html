@@ -7,83 +7,69 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- ============================================
-     STYLES
-     ============================================ -->
 <style>
     /* ========== Base Styles ========== */
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
-    body {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-        padding: 40px;
-        background: #f5f5f5;
-    }
+    /* 不覆盖 body，让主题控制 */
     
     /* ========== Layout ========== */
-    .container {
-        max-width: 1200px;
+    .palette-container {
+        max-width: 100%;
         margin: 0 auto;
-        background: white;
-        padding: 40px;
-        border-radius: 12px;
-        box-shadow: 0 2px 12px rgba(0,0,0,0.1);
     }
     
     /* ========== Typography ========== */
-    h1 {
-        text-align: center;
+    .palette-container h1 {
+        color: #222;
+        margin-bottom: 8px;
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+    
+    .palette-container .subtitle {
+        color: #6c757d;
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
+    
+    .palette-container .section h2 {
         color: #333;
-        margin-bottom: 10px;
-    }
-    
-    .subtitle {
-        text-align: center;
-        color: #666;
-        margin-bottom: 40px;
-    }
-    
-    .section h2 {
-        color: #444;
-        margin-bottom: 20px;
-        font-size: 20px;
-        border-bottom: 2px solid #4878d0;
-        padding-bottom: 10px;
+        margin-bottom: 16px;
+        font-size: 1.1em;
+        font-weight: 600;
+        border-bottom: 1px solid #e0e0e0;
+        padding-bottom: 8px;
     }
     
     /* ========== Section Layout ========== */
-    .section {
-        margin-bottom: 40px;
+    .palette-container .section {
+        margin-bottom: 35px;
     }
     
     /* ========== Color Palette Grid ========== */
     .palette-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
-        gap: 12px;
-        margin-bottom: 20px;
+        grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+        gap: 10px;
+        margin-bottom: 16px;
     }
     
     .color-item {
         aspect-ratio: 1;
-        border-radius: 8px;
+        border-radius: 4px;
         cursor: pointer;
-        transition: transform 0.2s, box-shadow 0.2s;
+        transition: transform 0.15s, box-shadow 0.15s;
         position: relative;
         overflow: hidden;
+        border: 1px solid rgba(0,0,0,0.08);
     }
     
     .color-item:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.15);
     }
     
     .color-item:active {
-        transform: scale(0.95);
+        transform: scale(0.97);
     }
     
     .color-code {
@@ -91,13 +77,14 @@ author_profile: true
         bottom: 0;
         left: 0;
         right: 0;
-        background: rgba(0,0,0,0.7);
+        background: rgba(0,0,0,0.75);
         color: white;
-        font-size: 10px;
-        padding: 4px;
+        font-size: 9px;
+        font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+        padding: 3px;
         text-align: center;
         opacity: 0;
-        transition: opacity 0.2s;
+        transition: opacity 0.15s;
     }
     
     .color-item:hover .color-code {
@@ -105,55 +92,62 @@ author_profile: true
     }
     
     /* ========== Code Block ========== */
-    .code-block {
-        background: #f8f8f8;
-        border: 1px solid #ddd;
-        border-radius: 6px;
-        padding: 20px;
-        font-family: 'Courier New', monospace;
-        font-size: 13px;
+    .palette-container .code-block {
+        background: #f6f8fa;
+        border: 1px solid #e1e4e8;
+        border-radius: 4px;
+        padding: 16px;
+        font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+        font-size: 12px;
+        line-height: 1.5;
         overflow-x: auto;
         position: relative;
     }
     
     /* ========== Buttons ========== */
-    .copy-btn {
+    .palette-container .copy-btn {
         position: absolute;
-        top: 10px;
-        right: 10px;
-        background: #4878d0;
-        color: white;
-        border: none;
-        padding: 8px 16px;
+        top: 8px;
+        right: 8px;
+        background: #f6f8fa;
+        color: #24292e;
+        border: 1px solid #e1e4e8;
+        padding: 5px 12px;
         border-radius: 4px;
         cursor: pointer;
-        font-size: 12px;
-        transition: background 0.2s;
+        font-size: 11px;
+        font-family: inherit;
+        transition: background 0.15s, border-color 0.15s;
     }
     
-    .copy-btn:hover {
-        background: #2e5aa8;
+    .palette-container .copy-btn:hover {
+        background: #e9ecef;
+        border-color: #ccc;
     }
     
-    .copy-btn.copied {
-        background: #6acc64;
+    .palette-container .copy-btn.copied {
+        background: #28a745;
+        color: white;
+        border-color: #28a745;
     }
     
     /* ========== Toast Notification ========== */
-    .toast {
+    .palette-toast {
         position: fixed;
         bottom: 20px;
         right: 20px;
-        background: #333;
+        background: #24292e;
         color: white;
-        padding: 12px 24px;
-        border-radius: 6px;
+        padding: 10px 20px;
+        border-radius: 4px;
+        font-size: 13px;
         opacity: 0;
-        transition: opacity 0.3s;
+        transition: opacity 0.2s;
         pointer-events: none;
+        z-index: 9999;
     }
     
-    .toast.show {
+    .palette-toast.show {
         opacity: 1;
     }
 </style>
@@ -260,7 +254,7 @@ author_profile: true
 <!-- ============================================
      HTML MARKUP
      ============================================ -->
-<div class="container">
+<div class="palette-container">
     <!-- Header -->
     <h1>扩展调色板</h1>
     <p class="subtitle">从10种颜色扩展到40种 - 点击色块复制颜色代码</p>
@@ -299,5 +293,5 @@ author_profile: true
 </div>
 
 <!-- Toast Notification -->
-<div class="toast" id="toast">已复制到剪贴板！</div>
+<div class="palette-toast" id="toast">已复制到剪贴板！</div>
     
