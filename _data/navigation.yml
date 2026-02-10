@@ -22,6 +22,8 @@ main:
     children:
       - title: "Palette"
         url: /palette/
+      - title: "Demormation Function"
+        url: https://claude.ai/public/artifacts/76b8990a-8f85-467d-ba94-66069c444dc6
     
   # - title: "Guide"
   #   url: /markdown/
