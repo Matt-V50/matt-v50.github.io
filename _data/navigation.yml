@@ -24,6 +24,8 @@ main:
         url: /palette/
       - title: "Deformation Function"
         url: https://claude.ai/public/artifacts/f240940f-4a3c-4785-9106-8d0bf5cd7d16
+      - title: "Credit"
+        url: https://claude.ai/public/artifacts/2afbf566-f680-470e-be57-1512205d5547
     
   # - title: "Guide"
   #   url: /markdown/
