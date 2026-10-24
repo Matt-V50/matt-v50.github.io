@@ -20,4 +20,4 @@ News
 * **Sep 2024**: Started my PhD at the University of Waterloo.
 * **Feb 2024**: [SfmCAD](/publication/2024-02-17-sfm-cad) is accepted to **CVPR 2024**.
 
-More details are in my [CV](/cv/).
+More details are in my [CV](/cv/) ([PDF](/assets/cv/Li_Huibin_CV.pdf)).

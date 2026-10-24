@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+[Download PDF](/assets/cv/Li_Huibin_CV.pdf)
+
 Education
 ======
 * Ph.D. in Structures, Mechanics & Construction Engineering, University of Waterloo, Sep 2024 – Present
@@ -44,6 +46,17 @@ Work experience
   * Built LSTM-based time-series forecasting of monthly active users for capacity planning
   * Designed an entropy-based URL aggregation algorithm, reducing storage requirements by 95%
   * Developed real-time anomaly detection for high-dimensional application performance metrics
+
+Teaching
+======
+
+* Fall 2026: Teaching Assistant, CIVE 221, University of Waterloo
+
+Talks
+======
+
+* Dec 2023: *The development and future of large models*, invited talk, China University of Political Science and Law
+* Jan 2024: *Popular science on large models*, invited talk, Youth Science and Technology Innovation Salon, UCAS
 
 Skills
 ======
