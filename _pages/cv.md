@@ -11,31 +11,45 @@ redirect_from:
 
 Education
 ======
-<!-- * Ph.D in Version Control Theory, GitHub University, 20 (expected) -->
-* M.S. in Schoold of Artificial Intelligence, University of Chinese Academic of Sciences, 2024
-* B.S. in Schoold of Computer Science, Yancheng Institute of Technology, 2015
+* Ph.D. in Structures, Mechanics & Construction Engineering, University of Waterloo, Sep 2024 – Present
+  * Advisor: [Prof. Chul Min Yeum](https://cviss.net/)
+  * Research: 3D Gaussian Splatting for scene reconstruction and understanding
+* M.Eng. in Electronic and Information Engineering (Artificial Intelligence), University of Chinese Academy of Sciences, 2021 – 2024
+  * Advisor: [Prof. Jianwei Guo](https://jianweiguo.net/)
+  * Thesis: High-quality automatic texture reconstruction and intelligent generation for 3D digital content production
+* B.S. in Computer Science, Yancheng Institute of Technology, 2011 – 2015
+
+Research experience
+======
+
+* Sep 2024 – Present: Graduate Research Assistant, [CVISS Lab](https://cviss.net/), University of Waterloo
+  * Learnable deformable kernels for 2D Gaussian Splatting (NeurIPS 2026)
+  * Floater removal for 3D Gaussian Splatting with attention-based transformers
+  * Interactive oriented bounding box extraction from 3D Gaussian Splatting
+
+* Sep 2021 – Jun 2024: Graduate Research Assistant, Institute of Automation, Chinese Academy of Sciences
+  * Texture reconstruction and diffusion-based texture generation for 3D assets
+  * Neural rendering pipelines for 3D scene reconstruction (PyTorch, CUDA)
 
 Work experience
 ======
 
-* Nov,2023 - May,2024: AI Lab Intern at [Well-Link](https://www.wl-times.com/)
-  * Developed and trained 3D mesh generation networks utilizing Generative Adversarial Network (GAN) and Variational Autoencoder (VAE) architectures
-  * Pioneered the application of state-of-the-art diffusion models to generate highly detailed and realistic texture maps, achieved the best LPIPS and PSNR metrics. significantly enhancing the visual fidelity and aesthetics of 3D models and digital assets.
-  * Designed and implemented innovative interactive tools that effectively address spatial consistency challenges in 3D modeling, streamlining the workflow and ensuring the integrity and coherence of complex 3D structures.
-  * Optimized prompt effectiveness using multi-round dialogue techniques, reducing the average number of prompt words from 75 to 5 while maintaining high-quality output. These advancements streamlined user input, enhanced user experience, and increased production efficiency and output quality in conversational AI systems.
+* Nov 2023 – Aug 2024: Research Intern, AI Lab, [Well-Link Times](https://www.wl-times.com/)
+  * Applied diffusion models to generate high-quality texture maps for 3D models, improving LPIPS and PSNR
+  * Designed interactive tools addressing spatial consistency in 3D modeling workflows
+  * Reduced game asset creation time from days to minutes through automated generation
+  * Built an LLM-based prompt enhancement system for text-to-image generation
 
-* 2015-2021: AI Algorigthm Engineer at [Tingyun](https://www.tingyun.com/)
-  * Leveraged Long Short-Term Memory (LSTM) neural networks to accurately forecast monthly active user counts, enabling proactive capacity planning
-  * Pioneered an innovative URL aggregation algorithm that drastically reduced storage requirements by 95% by applying the fundamental concepts of information entropy, enabling efficient and comprehensive data collection at an unprecedented scale. 
-  * Designed and implemented a cutting-edge anomaly detection algorithm that performs real-time monitoring and identification of anomalies in massive, high-dimensional datasets from diverse internet sources.
-  
-Main Skills
+* Apr 2015 – Jul 2021: Algorithm Engineer, [Tingyun](https://www.tingyun.com/)
+  * Built LSTM-based time-series forecasting of monthly active users for capacity planning
+  * Designed an entropy-based URL aggregation algorithm, reducing storage requirements by 95%
+  * Developed real-time anomaly detection for high-dimensional application performance metrics
+
+Skills
 ======
 
-* Python
-* Pytorch
-* Blender
-* Java
+* Programming & tools: Python, C++, JavaScript, Java, PyTorch, CUDA, Blender, Git, Docker, Linux
+* Research areas: 3D computer vision, neural rendering, Gaussian Splatting, point cloud processing, 3D generative models
 
 Publications
 ======
